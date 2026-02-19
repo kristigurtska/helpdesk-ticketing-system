@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IT helpdesk Ticket system</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <h1> IT Helpdesk dashboard</h1>
+
+<div class="form-container">
+    <input type="text" id="title" placeholder="issue title">
+
+    <textarea id="description" placeholder="Describe the problem"></textarea>
+
+
+    <select id="priority">
+        <option value="Low">Low</option>
+        <option value="Medium">Medium</option>
+        <option value="High">High</option>
+    </select>
+
+    <button id="createTicketBtn">Create Ticket</button>
+</div>
+
+<div id="ticketList"></div>
+
+<script src="js/app.js"></script>
+
+
+</body>
+</html>
