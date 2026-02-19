@@ -40,4 +40,3 @@ Check out the live demo here:
 
 ---
 
-b.com/YOUR-USERNAME/helpdesk-ticket-system.git
